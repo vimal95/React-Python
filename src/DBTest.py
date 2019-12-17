@@ -31,7 +31,7 @@ app.register_blueprint(SWAGGERUI_BLUEPRINT, url_prefix=SWAGGER_URL)
 # print(Js['subject'],Js['sender'],Js['recipients'])
 test_value2 = None
 
-client = pymongo.MongoClient("mongodb+srv://somesh:bkiQZUBxbpx3IGvm@cluster0-xsksy.mongodb.net/test?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://somesh:*********@cluster0-xsksy.mongodb.net/test?retryWrites=true&w=majority")
 #db = client.test
 #client = pymongo.MongoClient("localhost:27017")
 db= client["TestDB"]
